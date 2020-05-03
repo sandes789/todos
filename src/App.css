@@ -1,0 +1,59 @@
+.list-todos{
+  width: 700px;
+  margin: auto;
+  border: 1px solid rgb(150, 150, 150);
+  padding: 0px 20px;
+}
+.list-item{
+  display: grid;
+  grid-template-columns: 20px 400px auto;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding: 20px;
+}
+.action-button{
+  text-align: right;
+}
+.todos-title{
+  width: 700px;
+  margin:auto;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.edit-btn{
+  margin-right: 10px;
+  background-color: rgb(104, 104, 230);
+  border:none;
+  color:#fff;
+  padding: 5px 10px;
+}
+.add-btn{
+  margin-left: 10px;
+  background-color: rgb(105, 172, 211);
+  border:none;
+  color:#fff;
+  padding: 5px 10px;
+}
+.delete-btn{
+  background-color: rgb(212, 73, 73);
+  border:none;
+  color:#fff;
+  padding: 5px 10px;
+}
+.red-txt{
+  color:rgb(219, 77, 77);
+  font-weight: bold;
+}
+.input-outline{
+  border: none;
+  width: 400px;
+}
+.input-outline:focus{
+  outline: none;
+}
+.input-outline.active{
+  border-bottom: 2px solid  #6868e6;
+  color: #6868e6
+}
